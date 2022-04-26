@@ -5,7 +5,7 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-from config import TOKEN, WEATHER_TOKEN, WEATHER_URL
+# from config import TOKEN, WEATHER_TOKEN, WEATHER_URL
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
